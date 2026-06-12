@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# data
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.parquet
+*.pkl
+*.h5
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# environment
+.env
+
+# OS
+.DS_Store
